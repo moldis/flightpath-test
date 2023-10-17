@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "1a0d9d51-374d-4e5c-a69d-edb07335bb88",
+		"name": "flights-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "104558"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/calculate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[[\"IND\", \"EWR\"], [\"SFO\", \"ATL\"], [\"GSO\", \"IND\"], [\"GSO\", \"IND\"], [\"ATL\", \"GSO\"]]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/calculate",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

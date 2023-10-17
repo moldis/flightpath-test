@@ -1,0 +1,12 @@
+appName: flightspath-api
+logging:
+  level: debug
+api:
+  port: 8080
+  cors:
+    allowedOrigins: [ "*" ]
+    allowedMethods: [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+    allowedHeaders: [ "Accept", "Authorization", "Content-Type", "X-CSRF-Token" ]
+    exposedHeaders: [ ]
+    allowCredentials: true
+    maxAge: 300
